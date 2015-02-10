@@ -13,8 +13,12 @@ package lab2;
 public interface Course {
     public void setCourseName(String courseName);
     public String getCourseName();
-    public void setCourseNumber(String courseNumber);
+    public void setCourseNumber(String courseNum);
     public String getCourseNumber();
     public void setCredits(double credits);
     public double getCredits();
+    public void testCredits(double credits);
+    public void testCourseNum(String courseNum);
+    public void testPrereqs(String prereqs);
+    public void testCourseName(String courseName);
 }

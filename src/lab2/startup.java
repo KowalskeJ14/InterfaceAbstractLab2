@@ -11,5 +11,12 @@ package lab2;
  * @author kowal_000
  */
 public class startup {
-    
+    public static void main(String[] args) {
+        IntroToProgrammingCourse intP = new IntroToProgrammingCourse("Introduction to Programming", "100");
+        IntroJavaCourse intJ = new IntroJavaCourse("Intro to Java", "101");
+        AdvancedJavaCourse advJ = new AdvancedJavaCourse("Advanced Java", "102");
+        
+        
+        
+    }
 }
