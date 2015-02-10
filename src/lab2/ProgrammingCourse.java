@@ -10,7 +10,7 @@ package lab2;
  *
  * @author kowal_000
  */
-public interface Course {
+public interface ProgrammingCourse {
     public void setCourseName(String courseName);
     public String getCourseName();
     public void setCourseNumber(String courseNum);

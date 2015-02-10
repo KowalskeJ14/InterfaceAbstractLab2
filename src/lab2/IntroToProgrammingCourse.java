@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
  * @author      your name goes here
  * @version     1.00
  */
-public class IntroToProgrammingCourse implements Course{
+public class IntroToProgrammingCourse implements ProgrammingCourse{
     private String courseName;
     private String courseNumber;
     private double credits;
@@ -24,6 +24,7 @@ public class IntroToProgrammingCourse implements Course{
     }
 
     public void setCourseName(String courseName) {
+        testCourseName(courseName);
         this.courseName = courseName;
     }
 
@@ -32,6 +33,7 @@ public class IntroToProgrammingCourse implements Course{
     }
 
     public void setCourseNumber(String courseNumber) {
+        testCourseNum(courseNumber);
         this.courseNumber = courseNumber;
     }
 
@@ -40,6 +42,7 @@ public class IntroToProgrammingCourse implements Course{
     }
 
     public void setCredits(double credits) {
+        testCredits(credits);
         this.credits = credits;
     }
 
@@ -48,6 +51,7 @@ public class IntroToProgrammingCourse implements Course{
     }
 
     public void setPrerequisites(String prerequisites) {
+        testPrereqs(prerequisites);
         this.prerequisites = prerequisites;
     }
 

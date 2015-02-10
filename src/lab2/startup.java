@@ -12,9 +12,9 @@ package lab2;
  */
 public class startup {
     public static void main(String[] args) {
-        Course intP = new IntroToProgrammingCourse("Introduction to Programming", "100");
-        Course intJ = new IntroJavaCourse("Intro to Java", "101");
-        Course advJ = new AdvancedJavaCourse("Advanced Java", "102");
+        ProgrammingCourse intP = new IntroToProgrammingCourse("Introduction to Programming", "100");
+        ProgrammingCourse intJ = new IntroJavaCourse("Intro to Java", "101");
+        ProgrammingCourse advJ = new AdvancedJavaCourse("Advanced Java", "102");
         
         
         
